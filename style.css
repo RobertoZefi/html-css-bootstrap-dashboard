@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: currentColor !important;
+    text-decoration: none !important;
+}
+
+li{
+    list-style-type: none;
+}
+
+.layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 70px;
+}
+
+main{
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+}
+
+.side-bar{
+    width: 150px;
+    background-image: url(./img/sidebar-bg.png);
+}
+
+.main-content{
+    flex-grow: 1;
+}
