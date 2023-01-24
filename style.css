@@ -41,3 +41,15 @@ main{
 .main-content{
     flex-grow: 1;
 }
+
+/*****************
+HEADER
+*****************/
+
+.bell{
+    color: #FF8F00;
+}
+
+.logo-sm{
+    width: 32px;
+}
