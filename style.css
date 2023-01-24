@@ -36,6 +36,7 @@ main{
 .side-bar{
     width: 150px;
     background-image: url(./img/sidebar-bg.png);
+    color: white;
 }
 
 .main-content{
