@@ -95,9 +95,19 @@ MAIN-HEADER
     font-size: 14px;
 }
 
+
+
 .offcanvas{
-    min-width: 50vw;
+    min-width: 100%;
 }
+
+
+@media all and (min-width: 992px){
+    .offcanvas{
+        min-width: 50%;
+    }
+}
+
 
 .table-avatar{
     width: 30px;
