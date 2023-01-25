@@ -91,3 +91,17 @@ MAIN-HEADER
 .offcanvas{
     min-width: 50vw;
 }
+
+.table-avatar{
+    width: 30px;
+    object-fit: contain;
+}
+
+.table-button{
+    padding: 0 5px !important;
+    font-size: 13px !important;
+}
+
+.card-table{
+    width: 100% !important;
+}
