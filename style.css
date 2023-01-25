@@ -66,6 +66,11 @@ HEADER
     width: 32px;
 }
 
+.dropdown-menu{
+    left: -150px !important;
+}
+
+
 /*****************
 SIDE-BAR
 *****************/
