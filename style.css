@@ -25,18 +25,27 @@ li{
 
 header{
     height: 70px;
+    padding: 14px 0;
+    background-color: #F8F9FA;
 }
+
 
 main{
     flex-grow: 1;
-    background-color: black;
     display: flex;
 }
 
 .side-bar{
-    width: 150px;
+    width: 68px;
     background-image: url(./img/sidebar-bg.png);
+    background-color: #051E34;
     color: white;
+}
+
+@media all and (min-width: 992px){
+    .side-bar{
+        width: 150px;
+    }
 }
 
 .main-content{
@@ -53,4 +62,32 @@ HEADER
 
 .logo-sm{
     width: 32px;
+}
+
+/*****************
+SIDE-BAR
+*****************/
+
+.list-group{
+    height: 100%;
+}
+
+.list-group-item a:hover{
+    background-color: rgba(248, 249, 250, 0.5) !important;
+    border-radius: 0 !important;
+}
+
+/*****************
+MAIN-HEADER
+*****************/
+
+.link-header{
+    padding: 2px 8px;
+    border-radius: 999px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.offcanvas{
+    min-width: 50vw;
 }
